@@ -1,9 +1,9 @@
 #include <physical_layouts.dtsi>
 
 / {
-    physical_layout_preonic: physical_layout_preonic {
+    physical_layout_preonic_lp: physical_layout_preonic_lp {
         compatible = "zmk,physical-layout";
-        display-name = "preonic";
+        display-name = "preonic_lp";
         keys  //                     w   h    x    y     rot    rx    ry
             = <&key_physical_attrs 100 100    0    0       0     0     0>
             , <&key_physical_attrs 100 100  100    0       0   100     0>
