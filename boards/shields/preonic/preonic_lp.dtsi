@@ -1,4 +1,4 @@
-#include "preonic-layouts.dtsi"
+#include "preonic_lp-layouts.dtsi"
 #include <dt-bindings/zmk/matrix_transform.h>
 
 / {
@@ -16,7 +16,7 @@
     };
 };
 
-&physical_layout_preonic {
+&physical_layout_preonic_lp {
     transform = <&matrix_transform0>;
 };
 
