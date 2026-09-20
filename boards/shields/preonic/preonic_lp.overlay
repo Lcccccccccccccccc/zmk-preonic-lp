@@ -1,4 +1,4 @@
-#include "preonic.dtsi"
+#include "preonic_lp.dtsi"
 
 / {
     kscan0: kscan0 {
@@ -31,7 +31,7 @@
     };
 };
 
-&physical_layout_preonic {
+&physical_layout_preonic_lp {
     kscan = <&kscan0>;
 };
 
