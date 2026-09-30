@@ -88,7 +88,7 @@
             bindings = <
 &kp F1     &kp F2     &kp F3     &kp F4     &kp F5     &kp F6     &kp F7     &kp F8     &kp F9     &kp F10    &kp F11    &kp F12
 &kp BSLH   &kp EXCL   &kp AT     &kp HASH   &kp DLLR   &kp PRCNT  &kp QMARK  &kp AMPS   &kp STAR   &kp LPAR   &kp RPAR   &kp PSCRN
-&none      &none      &none      &none      &none      &none      &none      &kp UNDER  &kp PLUS   &kp CA_UML &kp CA_CAP_CCED &kp CA_CAP_AGRV
+&none      &none      &none      &none      &none      &none      &none      &kp UNDER  &kp PLUS   &kp CA_UML &kp RBRC &kp CA_CAP_AGRV
 &none      &none      &none      &none      &none      &none      &none      &kp CA_CAP_AGRV &macro_cap_ugrv &kp HOME &kp END &none
 &none      &none      &none      &none      &trans     &none      &none      &trans     &none      &none      &none      &none
             >;
@@ -99,7 +99,7 @@
             bindings = <
 &kp FSLH   &kp N1     &kp N2     &kp N3     &kp N4     &kp N5     &kp N6     &kp N7     &kp N8     &kp N9     &kp N0     &kp BSPC
 &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &kp DEL
-&none      &none      &none      &none      &none      &none      &none      &kp MINUS  &kp EQUAL  &kp LBKT   &kp CA_CCED &kp CA_AGRV
+&none      &none      &none      &none      &none      &none      &none      &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT &kp CA_AGRV
 &none      &none      &none      &none      &none      &none      &none      &kp CA_AGRV &macro_ugrv &kp LC(HOME) &kp LC(END) &kp C_PP
 &none      &none      &none      &none      &trans     &none      &none      &trans     &kp C_PREV &kp C_NEXT &kp C_VOL_DN &kp C_VOL_UP
             >;
